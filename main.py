@@ -12,7 +12,7 @@ from quotes import quotes
 
 
 # page config
-favicon = Image.open(r"assets\favicon.ico")
+favicon = Image.open("favicon.ico")
 st.set_page_config(
     layout="wide", 
     page_icon=favicon,
@@ -48,7 +48,7 @@ with col1:
     st.write("")
 
 with col2:
-    st.image(r"assets\ranking_methodology.jpg")
+    st.image("ranking_methodology.jpg")
 
 with col3:
     st.write("")
