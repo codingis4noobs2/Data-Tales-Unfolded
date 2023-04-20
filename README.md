@@ -8,5 +8,5 @@
 
 ### Step1: Fork this repo
 ### Step2: Git Clone in your device, `https://github.com/your_github_username/Data-Tales-Unfolded.git`
-### Install required libraries using, `pip -r requirements.txt`
-### Run the program using streamlit: `streamlit run main.py`
+### Step3: Install required libraries using, `pip -r requirements.txt`
+### Step4: Run the program using streamlit, `streamlit run main.py`
