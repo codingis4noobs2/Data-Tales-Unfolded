@@ -507,6 +507,12 @@ with col3:
     st.write("")
     
 st.write("---")
-st.write("<h4>Conclusion: Universities having a good average score in 'Teaching', 'Research', & 'Citations' rank have a higher overall rank in the world's university ranking, Like for example Havard University even though Havard University doesn't have good rankings in International Outlook & Industry Income, it is still in the top 10 universities of all time just because of the weightage of 'Teaching', 'Research', 'Citations' is much higher than 'International Outlook' & 'Industry Income' </h4>", unsafe_allow_html=True)
+st.write("<h4 style='text-align: center;'>Conclusion</h4>", unsafe_allow_html=True)
+st.write("<h5>Universities having a good average score in 'Teaching', 'Research', & 'Citations' rank have a higher overall rank in the world's university ranking, Like for example Havard University even though Havard University doesn't have good rankings in International Outlook & Industry Income, it is still in the top 10 universities of all time just because of the weightage of 'Teaching', 'Research', 'Citations' is much higher than 'International Outlook' & 'Industry Income'</h5>", unsafe_allow_html=True)
+st.write("---")
+st.write("<h4>All time Top 3 Universities<h4>", unsafe_allow_html=True)
+st.write("* **University Of Oxford**")
+st.write("* **California Institute of Technology**")
+st.write("* **Havard University**")
 st.write("---")
 st.markdown("**Dataset Used:** [Link To Dataset↗️](https://www.kaggle.com/datasets/r1chardson/the-world-university-rankings-2011-2023)")
