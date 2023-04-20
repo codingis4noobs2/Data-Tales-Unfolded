@@ -448,7 +448,6 @@ if univ1 != "Select University" and univ2 != "Select University":
     if univ1 == univ2:
         st.write("<h4 style='text-align: center;'>Oops, You selected same Universities 😆</h4>", unsafe_allow_html=True)
     else:
-        c1, c2 = 0, 0
         with col1:
             if visibility_of_c1:
                 st.write(f"<h4>{univ1} ({country1})</h4>", unsafe_allow_html=True)
