@@ -7,6 +7,6 @@
 ## Thinking of running the project locally or wanna contributing, Consider following this steps:
 
 ### Step1: Fork this repo
-### Step2: Git Clone in your device, `https://github.com/your_github_username/Data-Tales-Unfolded.git`
+### Step2: Git Clone in your device, `git clone https://github.com/your_github_username/Data-Tales-Unfolded.git`
 ### Step3: Install required libraries using, `pip -r requirements.txt`
 ### Step4: Run the program using streamlit, `streamlit run main.py`
