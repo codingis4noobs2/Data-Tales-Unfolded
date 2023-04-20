@@ -57,19 +57,19 @@ st.write("<h6 style='text-align: center;'>Image Credits: <a href='https://www.ti
 st.write("---")
 
 filenames = [
-    r"data\2011_rankings.csv", 
-    r"data\2012_rankings.csv", 
-    r"data\2013_rankings.csv", 
-    r"data\2014_rankings.csv", 
-    r"data\2015_rankings.csv", 
-    r"data\2016_rankings.csv", 
-    r"data\2017_rankings.csv", 
-    r"data\2018_rankings.csv", 
-    r"data\2019_rankings.csv", 
-    r"data\2020_rankings.csv", 
-    r"data\2021_rankings.csv", 
-    r"data\2022_rankings.csv", 
-    r"data\2023_rankings.csv"
+    "2011_rankings.csv", 
+    "2012_rankings.csv", 
+    "2013_rankings.csv", 
+    "2014_rankings.csv", 
+    "2015_rankings.csv", 
+    "2016_rankings.csv", 
+    "2017_rankings.csv", 
+    "2018_rankings.csv", 
+    "2019_rankings.csv", 
+    "2020_rankings.csv", 
+    "2021_rankings.csv", 
+    "2022_rankings.csv", 
+    "2023_rankings.csv"
 ]
 dfs = {}      
 
@@ -106,7 +106,7 @@ if univ_name != 'Select University':
 
         if not univ_df.empty:
             country = univ_df['location'].iloc[0]
-            year = key.split("_")[0][5:]
+            year = key.split("_")[0]
             teaching_rank = univ_df['scores_teaching_rank'].iloc[0]
             research_rank = univ_df['scores_research_rank'].iloc[0]
             citations_rank = univ_df['scores_citations_rank'].iloc[0]
@@ -372,7 +372,7 @@ with col1:
             univ_df1 = df[df['name'] == univ1]
             if not univ_df1.empty:
                 country1 = univ_df1['location'].iloc[0]
-                year1 = key.split("_")[0][5:]
+                year1 = key.split("_")[0]
                 teaching_rank1 = univ_df1['scores_teaching_rank'].iloc[0]
                 research_rank1 = univ_df1['scores_research_rank'].iloc[0]
                 citations_rank1 = univ_df1['scores_citations_rank'].iloc[0]
@@ -417,7 +417,7 @@ with col2:
             univ_df2 = df[df['name'] == univ2]
             if not univ_df2.empty:
                 country2 = univ_df2['location'].iloc[0]
-                year2 = key.split("_")[0][5:]
+                year2 = key.split("_")[0]
                 rank2 = univ_df2['rank'].iloc[0]
                 overall_rank2 = univ_df2['scores_overall_rank'].iloc[0]
                 teaching_rank2 = univ_df2['scores_teaching_rank'].iloc[0]
