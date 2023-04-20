@@ -1,6 +1,6 @@
 typing_animation_html = '''
 <div class="typewriter">
-  <h1>Data Tales Unfolded!📊📈📉</h1>
+  <h1>Data Tales Unfolded!📊</h1>
 </div>
 '''
 
@@ -51,7 +51,7 @@ typing_animation_js = '''
 <script>
 document.addEventListener('DOMContentLoaded', function(event) {
   var i = 0;
-  var txt = 'Data Tales Unfolded!📊📈📉';
+  var txt = 'Data Tales Unfolded!📊';
   var speed = 100; /* The speed/duration of the typing effect in milliseconds */
 
   function typeWriter() {
